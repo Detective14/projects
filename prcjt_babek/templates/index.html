@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>MySite - Главная</title>
+</head>
+<body>
+    <header>
+        <div class="logo">My<span>Site</span></div>
+        <nav>
+            <a href="/">Главная</a>
+            {{if .LoggedIn}}
+                <a href="/logout">Выйти</a>
+                <span class="nav-user">Привет, {{.UserName}}</span>
+            {{else}}
+                <a href="/login">Вход</a>
+                <a href="/register">Регистрация</a>
+            {{end}}
+        </nav>
+        <a href="/download" class="btn-contact">Скачать дневник</a>
+    </header>
+    <main class="hero">
+        <h1>Электронный Дневник</h1>
+        <div style="max-width: 800px; margin: 0 auto; text-align: left; background: white; padding: 30px; border-radius: 15px;">
+            <h3>О проекте</h3>
+            <p><strong>Проблема:</strong> Низкая успеваемость студентов из-за отсутствия удобного контроля[cite: 2].</p>
+            <p><strong>Цель:</strong> Повышение успеваемости через удобный доступ к данным[cite: 3].</p>
+            <p><strong>Приложение:</strong> Это десктопный хаб, который позволяет отслеживать оценки и расписание в реальном времени[cite: 1, 6].</p>
+        </div>
+        <div class="download-section">
+            <h3>Готовы начать?</h3>
+            <a href="/download" class="btn-contact">Перейти к скачиванию</a>
+        </div>
+    </main>
+</body>
+</html>

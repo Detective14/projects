@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo span { color: #007bff; }
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #666;
+    transition: 0.3s;
+}
+
+nav a:hover { color: #007bff; }
+
+.btn-contact {
+    background: #007bff;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.download-section {
+    background: #eef2f7;
+    padding: 50px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 30px;
+}

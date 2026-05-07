@@ -1,0 +1,3 @@
+/home/trev/Dev/College/sputidiyu/build/CMakeFiles/ElectronicDiary.dir
+/home/trev/Dev/College/sputidiyu/build/CMakeFiles/edit_cache.dir
+/home/trev/Dev/College/sputidiyu/build/CMakeFiles/rebuild_cache.dir
